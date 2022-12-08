@@ -5,7 +5,3 @@ int main()
   std::cout << "it's a beautiful day today";
   return 0;
 }
-void mian ()
-{
-
-}
