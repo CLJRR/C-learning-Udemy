@@ -4,12 +4,13 @@
 int main()
 {
 
-  int value1,value2;
-  printf("please enter value1\n");
-  scanf("%d",&value1);
-  printf("please enter value2\n");
-  scanf("%d",&value2);
-  printf("The addition of these 2 numbers are %d",value1+value2);
+  int hoursWorked;
+  double salary;
+  printf("please enter salary in XX.XX format\n");
+  scanf("%lf",&salary);
+  printf("please enter no of hours worked\n");
+  scanf("%d",&hoursWorked);
+  printf("The addition of these 2 numbers are %.2lf",salary*hoursWorked);
 
 
 
