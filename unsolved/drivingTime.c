@@ -3,11 +3,12 @@
 #include <math.h>
 int main()
 {
-  int timeHours, distance = 300, speed = 80;
-  float timeMinutes;
+  int timeHours, distance = 301, speed = 80, timeMinutes, timeSeconds;
   timeHours = distance / speed; // 300/80, remainder 60km
   timeMinutes = (distance % speed) / (speed / 60.0);
-  printf("The time it will take will be %d hours and %.2f minutes\n", timeHours, timeMinutes);
+  timeSeconds = (distance % (int)(speed / 60.0)) / (speed / 3600);
+  // timeSeconds = (distance / (speed / 3600.0)) - timeHours * 3600 - timeMinutes * 60;
+  printf("The time it will take will be %d hours, %d minutes and %d seconds\n", timeHours, timeMinutes, timeSeconds);
 
   /*find way to print hours mins and seconds*/
 }
