@@ -5,7 +5,7 @@ int main()
 {
   int selection, x, y; // integer %d is integers
   float b;             // floating numbers  %f is for floating numbers
-  double c;            // large floatring numbers
+  double c, x;         // large floatring numbers
   printf("1 - casting example\n"
          "2 - if else example\n"
          "3 - While loop example\n"
