@@ -9,5 +9,13 @@ int main()
   secondsRemaining = seconds % 60;
   hours = seconds / 3600;
   minutes = (seconds / 60) % 60;
-  printf("Hours:    %d\nMinutes:  %d\nSeconds:  %d\n", hours, minutes, secondsRemaining);
+  if (hours < 10)
+    printf("0");
+  printf("%d : ", hours);
+  if (minutes < 10)
+    printf("0");
+  printf("%d : ", minutes);
+  if (secondsRemaining < 10)
+    printf("0");
+  printf("%d", secondsRemaining);
 }
