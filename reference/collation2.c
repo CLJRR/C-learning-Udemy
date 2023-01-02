@@ -3,6 +3,8 @@
 int main()
 {
   int selection; // integer %d is integers
+  void ifelse(void);
+  void casting(void);
   // float;         // floating numbers  %f is for floating numbers
   // double;        // large floatring numbers
   printf("1 - casting example\n"
