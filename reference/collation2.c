@@ -25,7 +25,7 @@ int main()
     break;
   }
 }
-void casting()
+void casting(void)
 {
   int x, y;
   x = 4;
