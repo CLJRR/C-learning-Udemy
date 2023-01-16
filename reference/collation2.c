@@ -40,7 +40,7 @@ void ifelse()
 }
 int main()
 {
-  int selection; // integer %d is integers
+  char selection; // integer %d is integers
 
   // float;         // floating numbers  %f is for floating numbers
   // double;        // large floatring numbers
@@ -48,14 +48,14 @@ int main()
          "b - if else example\n"
          "c - While loop example\n"
          "please enter selection:\n");
-  scanf("%d", &selection);
+  scanf("%c", &selection);
   // sleep(1); // wait 1 seconds
   switch (selection)
   {
   case 'a':
     casting();
     break;
-  case '2':
+  case 'b':
     ifelse();
 
   default:
