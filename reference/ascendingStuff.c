@@ -15,6 +15,7 @@ int main()
     scanf("%d", &num1);
     if (num1 < num2)
     {
+
       NotAscending = 1;
       break;
     }
