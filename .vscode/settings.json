@@ -3,6 +3,7 @@
     "stdio.h": "c",
     "iterator": "c",
     "random": "c",
-    "limits": "c"
+    "limits": "c",
+    "stdlib.h": "c"
   }
 }
