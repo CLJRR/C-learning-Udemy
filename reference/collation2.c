@@ -1,29 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main()
-{
-  int selection; // integer %d is integers
-  // float;         // floating numbers  %f is for floating numbers
-  // double;        // large floatring numbers
-  printf("1 - casting example\n"
-         "2 - if else example\n"
-         "3 - While loop example\n"
-         "please enter selection:\n");
-  scanf("%d", &selection);
-  // sleep(1); // wait 1 seconds
-  switch (selection)
-  {
-  case '1':
-    casting;
-    break;
-  case '2':
-    ifelse;
 
-  default:
-    break;
-  }
-}
-void casting()
+void casting(void)
 {
   int x, y;
   x = 4;
@@ -58,5 +36,29 @@ void ifelse()
   else
   {
     printf("you have entered an invalid selection, please re-enter x and y");
+  }
+}
+int main()
+{
+  char selection; // integer %d is integers
+
+  // float;         // floating numbers  %f is for floating numbers
+  // double;        // large floatring numbers
+  printf("a - casting example\n"
+         "b - if else example\n"
+         "c - While loop example\n"
+         "please enter selection:\n");
+  scanf("%c", &selection);
+  // sleep(1); // wait 1 seconds
+  switch (selection)
+  {
+  case 'a':
+    casting();
+    break;
+  case 'b':
+    ifelse();
+
+  default:
+    break;
   }
 }

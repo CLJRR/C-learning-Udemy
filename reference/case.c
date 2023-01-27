@@ -23,7 +23,7 @@ void main()
   scanf("%c", &grade);
   switch (grade)
   {
-  case 'A' || 'a':
+  case 'A' && 'a':
     printf("grade between 90-100\n");
     break;
   case 'B':
