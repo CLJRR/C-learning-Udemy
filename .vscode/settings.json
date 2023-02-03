@@ -4,6 +4,7 @@
     "iterator": "c",
     "random": "c",
     "limits": "c",
-    "stdlib.h": "c"
+    "stdlib.h": "c",
+    "functional": "c"
   }
 }
