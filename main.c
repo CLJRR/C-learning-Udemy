@@ -3,7 +3,6 @@
 #define SIZE 7
 int main()
 {
-  // scanf("%d", &SIZE);
   int array[SIZE], i, trueFalse = 0;
   for (i = 0; i < SIZE; i++)
   {
@@ -13,10 +12,11 @@ int main()
   for (i = 1; i < SIZE - 1; i++)
   {
     if (array[i - 1] * array[i + 1] == array[i])
-      trueFalse = 1;
+    {
+      printf("good neighbours\n");
+      return 0;
+    }
   }
-  if (trueFalse == 1)
-    printf("good neighbours\n");
-  else
-    printf("no good neighbours\n");
+  printf("no good neighbours\n");
+  return 0;
 }
