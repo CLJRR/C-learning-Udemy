@@ -1,17 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define SIZE 7
 int main()
 {
-  int i;
-  int array[SIZE] = {5, 3, 4, 1, 4, 3, 5};
-  for (i = 0; i < SIZE / 2; i++)
+  int i, min1 = 0, min2 = 0, temp, arrayCopy[7], array[7] = {1, 2, 3, 4, 5, 6, 7};
+
+  for (i = 0; i < 7; i++)
   {
-    if (array[i] != array[SIZE - 1 - i])
-    {
-      printf("not palindrome");
-      return 0;
-    }
+    arrayCopy[i] = abs(array[i]);
   }
-  printf("palindrome");
+  temp = arrayCopy[0];
+  for
 }

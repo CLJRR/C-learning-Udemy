@@ -5,6 +5,7 @@
     "random": "c",
     "limits": "c",
     "stdlib.h": "c",
-    "functional": "c"
+    "functional": "c",
+    "array": "c"
   }
 }
