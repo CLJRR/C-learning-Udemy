@@ -9,5 +9,4 @@ int main()
     arrayCopy[i] = abs(array[i]);
   }
   temp = arrayCopy[0];
-  for
 }
