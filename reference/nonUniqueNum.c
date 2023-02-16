@@ -4,7 +4,7 @@
 int main()
 {
   int counter = 0, i, j;
-  int values[SIZE] = {5, 7, 3, 4, 5, 6, 85, 9, 10, 3};
+  int values[SIZE] = {2, 2, 1, 1, 5, 6, 7, 8, 9, 10};
   for (i = 0; i < SIZE; i++)
   {
     for (j = 0; j < SIZE; j++)
@@ -19,5 +19,5 @@ int main()
       }
     }
   }
-  printf("%d", counter);
+  printf("Non-Unique: %d", counter);
 }
