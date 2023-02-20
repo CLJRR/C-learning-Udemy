@@ -15,6 +15,7 @@ int main()
       {
         if (j > i)
           counter++;
+
         break;
       }
     }
