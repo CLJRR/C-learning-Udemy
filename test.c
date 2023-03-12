@@ -3,13 +3,9 @@
 #define SIZE 10
 int main()
 {
-  char arr[10];
-  int i = 0;
-  printf("please enter your name:");
-  scanf("%s", &arr);
-  while (arr[i] != '\0')
+  typedef struct
   {
-    printf("%c", arr[i]);
-    i++;
-  }
+    char name[20];
+    char number[20];
+  } person;
 }

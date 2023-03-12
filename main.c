@@ -1,25 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-int test()
+#define n 2
+int main(void)
 {
-  int i = 0;
-  char name[] = "Lee Jia Rong";
-  while (name[i] != '\0')
+  char names[n][12];
+  for (int i = 0; i < n; i++)
   {
-    printf("%c", name[i]);
-    i++;
+    printf("please enter name %d: ", i + 1);
+    scanf("%s", names[i]);
   }
-}
-int main()
-{
-  int i = 0;
-  char name[12];
-  printf("please enter name");
-  scanf("%s", &name);
-  while (name[i] != '\0')
+  for (int i = 0; i < n; i++)
   {
-    printf("%c", name[i]);
-    i++;
+    printf("%s\n", names[i]);
   }
 }
