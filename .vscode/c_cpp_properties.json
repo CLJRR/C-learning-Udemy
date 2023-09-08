@@ -1,7 +1,7 @@
 {
   "configurations": [
     {
-      "name": "windows-gcc-x64",
+      "name": "windows-gcc-x86",
       "includePath": [
         "${workspaceFolder}/**"
       ],
@@ -12,8 +12,8 @@
       ],
       "cStandard": "${default}",
       "cppStandard": "${default}",
-      "intelliSenseMode": "windows-gcc-x64",
-      "compilerPath": "C:/msys64/mingw64/bin/gcc.exe"
+      "intelliSenseMode": "windows-gcc-x86",
+      "compilerPath": "C:/Users/calvi/source/repos/MinGW/bin/gcc.exe"
     },
     {
       "name": "Win64",
