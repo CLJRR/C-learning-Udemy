@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 float averageFinder()
 {
   int num1, num2, num3;
